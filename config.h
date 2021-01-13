@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Hack:pixelsize=18:antialias=true:autohint=true";
-static char *font2[] = {  };
+static char *font2[] = { };
 static int borderpx = 2;
 
 /*
@@ -55,7 +55,7 @@ static double maxlatency = 33;
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
  * attribute.
  */
-static unsigned int blinktimeout = 800;
+static unsigned int blinktimeout = 0;
 
 /*
  * interval (in milliseconds) between each successive call to ximspot. This

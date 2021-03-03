@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack:pixelsize=18:antialias=true:autohint=true";
+static char *font = "Hack:pixelsize=20:antialias=true:autohint=true";
 static char *font2[] = { };
 static int borderpx = 2;
 
@@ -107,26 +107,26 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 1;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+	"#3d335c", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	"#da0f7a",
+	"#00f58f",
+	"#ffc65c",
+	"#008bd7",
+	"#da70d6",
+	"#00ded3",
+	"#b5bab5",
+	"#483c6c",
+	"#ff217c",
+	"#21ffa2",
+	"#ffd486",
+	"#0c86f0",
+	"#e69ee4",
+	"#0cffe1",
+	"#d5d8d5",
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
